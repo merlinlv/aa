@@ -1,0 +1,7 @@
+# Project exclude paths
+/aa-common/target/
+/aa-feign/target/
+/aa-gateway/target/
+/aa_client/target/
+/aa_config/target/
+/aa_server/target/

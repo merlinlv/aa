@@ -1,0 +1,26 @@
+server:
+  port: 9041
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: test_route
+        uri: lb://aa-feign
+        predicates:
+        - Path=/consume/**
+#        filters:
+#            - StripPrefix=1
+  application:
+    name: aa-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9001/eureka/
+
+
+
+

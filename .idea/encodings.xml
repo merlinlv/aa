@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa_client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa_client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa_config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa_config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/aa_server/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aa-feign" />
+        <module name="aa_server" />
+        <module name="aa_config" />
+        <module name="aagateway" />
+        <module name="aa-common" />
+        <module name="aacommon" />
+        <module name="aa_client" />
+        <module name="aafeign" />
+        <module name="aa-gateway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aa-common" options="-parameters" />
+      <module name="aa-feign" options="-parameters" />
+      <module name="aa-gateway" options="-parameters" />
+      <module name="aa_client" options="-parameters" />
+      <module name="aa_config" options="-parameters" />
+      <module name="aa_server" options="-parameters" />
+      <module name="aacommon" options="-parameters" />
+      <module name="aafeign" options="-parameters" />
+      <module name="aagateway" options="-parameters" />
+      <module name="me" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+server:
+  port: 9011
+spring:
+  application:
+    name: aa-config
+  profiles:
+    active: native
+    cloud:
+      config:
+        server:
+          native:
+            searchLocation: classpath:/config
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
+
